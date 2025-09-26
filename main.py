@@ -3,7 +3,7 @@ from constants import *  # noqa: F403
 
 
 def main():
-    print(f"Starting Asteroids — {SCREEN_WIDTH}x{SCREEN_HEIGHT}")  # noqa: F405
+    print(f"Starting Mockstroids — {SCREEN_WIDTH}x{SCREEN_HEIGHT}")  # noqa: F405
 
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))  # noqa: F405
 
