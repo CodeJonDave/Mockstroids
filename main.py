@@ -17,7 +17,7 @@ def main():
         screen.fill("black")
         pygame.display.flip()
 
-    dt = clock.tick(60) / 1000  # noqa: F841
+        dt = clock.tick(60) / 1000  # noqa: F841
 
 
 if __name__ == "__main__":
