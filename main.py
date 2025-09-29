@@ -34,6 +34,14 @@ def main():
         dt = clock.tick(60) / 1000
 
         updatables.update(dt)
+        
+        for shot in shots:
+            for asteroid in asteroids:
+                if shot.isColliding(asteroid):
+                    shot.kill()
+                    asteroid.kill()
+                    break
+            
         for asteroid in asteroids:
             if asteroid.isColliding(player):
                 print("Game Over")
